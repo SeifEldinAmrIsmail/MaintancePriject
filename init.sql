@@ -1,1 +1,0 @@
-ALTER TABLE quiz_attempt_questions DROP CONSTRAINT IF EXISTS ukshioj5qien7hefy0ha7bnawus;
