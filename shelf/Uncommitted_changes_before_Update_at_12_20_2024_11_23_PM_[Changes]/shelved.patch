@@ -1,0 +1,20 @@
+Index: src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=lms-backend\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/src/main/resources/application.properties b/src/main/resources/application.properties
+--- a/src/main/resources/application.properties	(revision cd92e448ceada7fd880ea16acde113e347d79213)
++++ b/src/main/resources/application.properties	(date 1734394827898)
+@@ -1,1 +1,8 @@
+-spring.application.name=lms-backend
++spring.datasource.url=jdbc:postgresql://localhost:5432/LMS
++spring.datasource.username=postgres
++spring.datasource.password=1234
++spring.jpa.hibernate.ddl-auto=update
++server.port=9090
++spring.jpa.show-sql=true
++
++
